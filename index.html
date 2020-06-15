@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="shortcut icon" href="public/favicon/favicon.ico" />
+    <meta name="csrf-token" content="aOmncNf0tccLDMwGMw7HmIY2hwPAXElPPu2UVC5i">
+    <title>KQURAN | الصفحة الرئيسية</title>
+    <meta name="title" content="Kquran">
+    <meta name="description"
+        content="موقع ختم تلاوة القرآن الكريم يساعدكم في إنهاء الختمة وإهدائها لأمواتكم وتعيين من يود القراءة وتكملة الأجزاء المتبقية سواء كانت الحملة خاصة او عامة.">
+    <link rel="stylesheet" type="text/css" href="public/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="public/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="public/css/green-audio-player.css" />
+    <link rel="stylesheet" type="text/css" href="public/css/toastr/build/toastr.css" />
+    <link rel="stylesheet" type="text/css" href="public/css/sweetalert2/dist/sweetalert2.css" />
+    <link rel="stylesheet" href="public/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" href="public/css/dataTables.bootstrap4.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+        rel="stylesheet">
+    <style>
+        *,
+        body {
+            font-family: 'Tajawal', sans-serif !important;
+        }
+    </style>
+</head>
+
+<body class="language_ar" id="langChange">
+    <header class="head  ">
+        <div class="language_select">
+            <a href="#" onclick="changeLang(this)" class="active">English</a>
+            <a href="login.html">تسجيل الدخول</a>
+        </div>
+        <div class="container text-center">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="public/images/template/logo_white.png" alt="شعار">
+                </a>
+            </div>
+            <div class="head_part mt-3">
+                <div class="right_menu">
+                    <ul class="menu">
+                        <li>
+                            <a class="active" href="index.html">
+                                الصفحة الرئيسية
+                            </a>
+                        </li>
+                        <li>
+                            <a class="" href="campaigns.html">
+                                الحملات الجارية
+                            </a>
+                        </li>
+                        <li>
+                            <a class="" href="how-to-work.html">
+                                كيف يعمل
+                            </a>
+                        </li>
+                        <li>
+                            <a class="" href="contact-us.html">
+                                تواصل معنا
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="banner">
+    </div>
+
+
+    <section>
+        <div class="container">
+            <div class="campaign_part">
+                <div class="left">
+                    <h1>موقع ختم تلاوة القران الكريم</h1>
+                    <span>نرحب بكم معنا ،،،</span>
+                    <div class="row">
+                        <p style="
+                            border: 1px solid #ddd;
+                            padding: 10px;
+                            box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+                        " class="col">نقدم لكم موقع ختم تلاوة القرآن الكريم والذي يساعدكم في إنهاء الختمة وإهدائها
+                            لأمواتكم وتعيين
+                            من
+                            يود القراءة وتكملة الأجزاء المتبقية سواء كانت الحملة خاصة على نطاق ضيق او عامة ويحق للجميع
+                            المشاركة فيها. </p>
+                        <p class="col">هذا الموقع مجاني ووقف لأرواح المؤمنين والمؤمنات في مشارق الارض ومغاربها وندعو
+                            المولى عز وجل
+                            الرحمة والغفران لأمواتنا جميعا ولا تنسونا من فاضل دعواتكم الكريمة والله ولي التوفيق</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <div class="campaign_part">
+                <div class="right mt-5 py-5 text-center rounded-0">
+                    <h3 class="mb-5">قم بالتسجيل وأبدأ رحلتك الجدية الان</h3>
+                    <p class="mb-5">بعد التسجيل يمكنك البدء في حملة ختم تلاوة القران الكريم واهدائها لأرواح المؤمنين
+                        والمؤمنات
+                    </p>
+                    <button class="btn start-campaign"> ابدأ بالاشتراك معنا</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="read_listen">
+        <div class="container">
+            <div class="top_heading">
+                <h2>إقرأ واستمع إلى القرآن الكريم</h2>
+                <p>هنا يتم كتابة نص تم توليده بطريقة اتوماتيك لذا يجب وضعه هنا للتعبير عن هنا.</p>
+            </div>
+            <div class="read_para">
+                <div class="para_box">
+                    <div class="top_area">
+                        <div class="left_part">
+                            <div class="para_name">
+                                الجزء الأول
+                            </div>
+                            <div class="pdf_icon">
+                                <span class="text">
+                                    <a href="pdf/chapter1.pdf" class="m-0" target="_blank">قراءة الجزء</a>
+                                </span>
+                            </div>
+                            <div class="right_part mt-3" id="play-audio">
+                                <div class="play-pause-btn" aria-label="Play" role="button" title="Play" style="visibility: visible;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" viewBox="0 0 18 24" tabindex="0" focusable="true">
+                                        <path fill="#fff" fill-rule="evenodd" d="M18 12L0 24V0" class="play-pause-btn__icon"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="para_box">
+                    <div class="top_area">
+                        <div class="left_part">
+                            <div class="para_name">
+                                الجزء الثاني
+                            </div>
+                            <div class="pdf_icon">
+                                <span class="text">
+                                    <a href="pdf/chapter2.pdf" class="m-0" target="_blank">قراءة الجزء</a>
+                                </span>
+                            </div>
+                            <div class="right_part mt-3" id="play-audio">
+                                <div class="play-pause-btn" aria-label="Play" role="button" title="Play" style="visibility: visible;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" viewBox="0 0 18 24" tabindex="0" focusable="true">
+                                        <path fill="#fff" fill-rule="evenodd" d="M18 12L0 24V0" class="play-pause-btn__icon"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="para_box">
+                    <div class="top_area">
+                        <div class="left_part">
+                            <div class="para_name">
+                                الجزء الثالث
+                            </div>
+                            <div class="pdf_icon">
+                                <span class="text">
+                                    <a href="pdf/chapter2.pdf" class="m-0" target="_blank">قراءة الجزء</a>
+                                </span>
+                            </div>
+                            <div class="right_part mt-3" id="play-audio">
+                                <div class="play-pause-btn" aria-label="Play" role="button" title="Play" style="visibility: visible;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" viewBox="0 0 18 24" tabindex="0" focusable="true">
+                                        <path fill="#fff" fill-rule="evenodd" d="M18 12L0 24V0" class="play-pause-btn__icon"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="para_box">
+                    <div class="top_area">
+                        <div class="left_part">
+                            <div class="para_name">
+                                الجزء الرابع
+                            </div>
+                            <div class="pdf_icon">
+                                <span class="text">
+                                    <a href="pdf/chapter2.pdf" class="m-0" target="_blank">قراءة الجزء</a>
+                                </span>
+                            </div>
+                            <div class="right_part mt-3" id="play-audio">
+                                <div class="play-pause-btn" aria-label="Play" role="button" title="Play" style="visibility: visible;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" viewBox="0 0 18 24" tabindex="0" focusable="true">
+                                        <path fill="#fff" fill-rule="evenodd" d="M18 12L0 24V0" class="play-pause-btn__icon"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="para_box">
+                    <div class="top_area">
+                        <div class="left_part">
+                            <div class="para_name">
+                                الجزء الخامس
+                            </div>
+                            <div class="pdf_icon">
+                                <span class="text">
+                                    <a href="pdf/chapter2.pdf" class="m-0" target="_blank">قراءة الجزء</a>
+                                </span>
+                            </div>
+                            <div class="right_part mt-3" id="play-audio">
+                                <div class="play-pause-btn" aria-label="Play" role="button" title="Play" style="visibility: visible;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" viewBox="0 0 18 24" tabindex="0" focusable="true">
+                                        <path fill="#fff" fill-rule="evenodd" d="M18 12L0 24V0" class="play-pause-btn__icon"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="para_box">
+                    <div class="top_area">
+                        <div class="left_part">
+                            <div class="para_name">
+                                الجزء السادس
+                            </div>
+                            <div class="pdf_icon">
+                                <span class="text">
+                                    <a href="pdf/chapter2.pdf" class="m-0" target="_blank">قراءة الجزء</a>
+                                </span>
+                            </div>
+                            <div class="right_part mt-3" id="play-audio">
+                                <div class="play-pause-btn" aria-label="Play" role="button" title="Play" style="visibility: visible;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" viewBox="0 0 18 24" tabindex="0" focusable="true">
+                                        <path fill="#fff" fill-rule="evenodd" d="M18 12L0 24V0" class="play-pause-btn__icon"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="para_box">
+                    <div class="top_area">
+                        <div class="left_part">
+                            <div class="para_name">
+                                الجزء السابع
+                            </div>
+                            <div class="pdf_icon">
+                                <span class="text">
+                                    <a href="pdf/chapter2.pdf" class="m-0" target="_blank">قراءة الجزء</a>
+                                </span>
+                            </div>
+                            <div class="right_part mt-3" id="play-audio">
+                                <div class="play-pause-btn" aria-label="Play" role="button" title="Play" style="visibility: visible;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" viewBox="0 0 18 24" tabindex="0" focusable="true">
+                                        <path fill="#fff" fill-rule="evenodd" d="M18 12L0 24V0" class="play-pause-btn__icon"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="foot">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-3 col-sm-6">
+                    <div class="progress blue mb-3">
+                        <span class="progress-left">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <span class="progress-right">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <div class="progress-value text-white"><b>10</b></div>
+                    </div>
+                    <span class="text-white">عدد الاجزاء المكتملة </span>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="progress yellow mb-3">
+                        <span class="progress-left">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <span class="progress-right">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <div class="progress-value text-white"><b>10</b></div>
+                    </div>
+                    <span class="text-white">عدد الاجزاء المكتملة </span>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="progress blue mb-3">
+                        <span class="progress-left">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <span class="progress-right">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <div class="progress-value text-white"><b>10</b></div>
+                    </div>
+                    <span class="text-white">عدد الاجزاء المكتملة </span>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="progress yellow mb-3">
+                        <span class="progress-left">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <span class="progress-right">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <div class="progress-value text-white"><b>10</b></div>
+                    </div>
+                    <span class="text-white">عدد الاجزاء المكتملة </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="contaner bg-white mt-5">
+        <div class="foot_part">
+            <div class="copyright">
+                <div class="social">
+                    <a href="javascript:void(0)" target="_blank">
+                        <img src="public/images/social/fb_icon.svg" alt="فايسبوك" />
+                    </a>
+                    <a href="javascript:void(0)" target="_blank">
+                        <img src="public/images/social/tw_icon.svg" alt="تويتر" />
+                    </a>
+                    <a href="javascript:void(0)" target="_blank">
+                        <img src="public/images/social/insta_icon.svg" alt="الانستقرام" />
+                    </a>
+                    <a href="javascript:void(0)" target="_blank">
+                        <img src="public/images/social/yt_icon.svg" alt="يوتيوب" />
+                    </a>
+                </div>
+                <p>&copy; 2020, كل الحقوق محفوظة لموقع قرآن بالعربية</p>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade book_popup" id="darood_modal" tabindex="-1" role="dialog"
+        aria-labelledby="booking_modalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <img src="public/images/template/close_icon.png" alt="إغلاق" />
+                    </button>
+                    <div class="book_form arabic text-center">
+                        <h3>بسم الله الرحمن الرحيم</h3>
+                        <audio controls autoplay>
+                            <source src="mp3/chapter1.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="public/js/jquery.js"></script>
+    <script type="text/javascript" src="public/js/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="public/js/green-audio-player.js"></script>
+    <script type="text/javascript" src="public/front/js/plugins.bundle.js"></script>
+    <script type="text/javascript" src="public/js/jquery-validation/dist/jquery.validate.js"></script>
+    <script type="text/javascript" src="public/js/jquery-validation/dist/additional-methods.js"></script>
+    <script type="text/javascript" src="public/js/jquery-validation.init.js"></script>
+    <script type="text/javascript" src="public/js/jsvalidation/jsvalidation.js"></script>
+    <script type="text/javascript" src="public/js/toastr/build/toastr.min.js"></script>
+    <script type="text/javascript" src="public/js/sweetalert2/dist/sweetalert2.min.js"></script>
+    <script type="text/javascript" src="public/js/sweetalert2.init.js"></script>
+    <script type="text/javascript" src="public/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="public/js/dataTables.bootstrap4.min.js"></script>
+    <script type="text/javascript" src="public/js/list-datatable.js"></script>
+    <script type="text/javascript" src="public/js/common.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("li.user_detail").click(function () {
+                $("ul.sub_menu").toggle();
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(".chapter_box").click(function () {
+                if ($('[type="checkbox"]', this).is(':checked')) {
+                    $(this).addClass('select');
+                } else {
+                    $(this).removeClass('select');
+                }
+
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            GreenAudioPlayer.init({
+                selector: '.audio_player',
+                stopOthersOnPlay: true,
+                showTooltips: true,
+                showDownloadButton: false,
+                enableKeystrokes: true
+            });
+        });
+
+        $(document).ready(function () {
+            $('.play-pause-btn').click(function () {
+                $('.para_box').removeClass('active');
+                $(this).closest('.para_box').toggleClass('active');
+            });
+        });
+    </script>
+
+    <script>
+        $('.menu, .overlay').click(function () {
+            $('.menu').toggleClass('clicked');
+
+            $('#nav').toggleClass('show');
+
+        });
+    </script>
+
+    <script>
+        const changeLang = (element) => {
+            debugger
+            document.getElementById('langChange').removeAttribute('class');
+            if (element.innerText == 'English') {
+                element.innerText = 'العربية';
+                document.getElementById('langChange').setAttribute('class', 'language_en');
+            } else {
+                element.innerText = 'English';
+                document.getElementById('langChange').setAttribute('class', 'language_ar');
+            }
+        }
+    </script>
+
+    <script>
+        $(document).off('click', '#play-audio').on('click', '#play-audio', function () {
+            $('#darood_modal').modal('show');
+        });
+    </script>
+</body>
+
+</html>

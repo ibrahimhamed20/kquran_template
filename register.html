@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="aOmncNf0tccLDMwGMw7HmIY2hwPAXElPPu2UVC5i">
+    <title>KQURAN | Sign Up</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700">
+    <link rel="stylesheet" href="public/front/css/plugins.bundle.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="public/front/css/style.bundle.css" />
+    <link rel="stylesheet" href="public/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" href="public/css/dataTables.bootstrap4.min.css" />
+    <link href="public/css/bootstrap-datepicker/dist/css/bootstrap-datepicker3.css" rel="stylesheet" type="text/css" />
+    <link href="public/css/bootstrap-datetime-picker/css/bootstrap-datetimepicker.css" rel="stylesheet"
+        type="text/css" />
+    <link href="public/css/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="public/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="public/css/green-audio-player.css" />
+    <link rel="stylesheet" href="public/front/css/custom.css" />
+    <link href="public/front/css/login-1.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+        rel="stylesheet">
+    <style>
+        *,
+        body {
+            font-family: 'Tajawal', sans-serif !important;
+        }
+    </style>
+</head>
+
+<body id="langChange"
+    class="language_ar kt-page--loading-enabled kt-page--loading kt-quick-panel--right kt-demo-panel--right kt-offcanvas-panel--right kt-header--fixed kt-header--minimize-topbar kt-header-mobile--fixed kt-subheader--enabled kt-subheader--transparent kt-page--loading ">
+    <div class="kt-grid kt-grid--ver kt-grid--root kt-page">
+        <div class="kt-grid kt-grid--hor kt-grid--root  kt-login kt-login--v1" id="kt_login">
+            <div
+                class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--desktop kt-grid--ver-desktop kt-grid--hor-tablet-and-mobile">
+                <!--begin::Aside-->
+                <div class="kt-grid__item kt-grid__item--order-tablet-and-mobile-2 kt-grid kt-grid--hor kt-login__aside"
+                    style="background-image: url(img/sign.jpg);">
+                </div>
+
+                <!--begin::Aside-->
+                <!--begin::Content-->
+                <div
+                    class="kt-grid__item kt-grid__item--fluid  kt-grid__item--order-tablet-and-mobile-1  kt-login__wrapper">
+                    <!--begin::Body-->
+                    <!-- end:: Header -->
+
+                    <div class="kt-login__body">
+                        <!--begin::Signin-->
+                        <div class="kt-login__form">
+                            <div style="text-align: right;">
+                                <a href="#" onclick="changeLang(this)">English</a>
+                            </div>
+                            <div class="kt-login__logo">
+                                <a href="index.html">
+                                    <img src="public/images/template/logo.svg" alt="Logo">
+                                </a>
+                            </div>
+                            <div class="kt-login__title">
+                                <h3>تسجيل حساب جديد</h3>
+                            </div>
+                            <!--begin::Form-->
+                            <form method="POST" action="#" accept-charset="UTF-8" id="form" class="kt-form">
+                                <!-- <input name="_token" type="hidden" value=""> -->
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="الاسم الاول" name="first_name" type="text">
+                                </div>
+
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="الاسم الثانى" name="last_name" type="text">
+                                </div>
+
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="البريد الالكتروني" name="email"
+                                        type="text">
+                                </div>
+
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="كلمة المرور" name="password"
+                                        type="password" value="">
+                                </div>
+
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="تأكيد كلمة المرور" name="confirm_password"
+                                        type="password" value="">
+                                </div>
+
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="رقم الهاتف" name="mobile" type="text">
+                                </div>
+                                <!--begin::Action-->
+                                <div class="kt-login__actions">
+                                    <a href="login.html" class="kt-link kt-login__link-forgot">
+                                        رجوع لتسجيل الدخول
+                                    </a>
+
+                                    <!-- <button class="btn btn-primary btn-elevate kt-login__btn-primary" id="login" type="button">Sign In ?</button>-->
+                                    <input class="btn btn-primary btn-elevate kt-login__btn-primary" type="submit"
+                                        value="تسجيل">
+                                </div>
+                                <!--end::Action-->
+                            </form>
+                            <!--end::Form-->
+                        </div>
+                        <!--end::Signin-->
+                    </div>
+                    <!--end::Body-->
+                </div>
+                <!--end::Content-->
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="public/js/jquery.js"></script>
+    <script type="text/javascript" src="public/js/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="public/js/green-audio-player.js"></script>
+    <script type="text/javascript" src="public/front/js/plugins.bundle.js"></script>
+    <script type="text/javascript" src="public/js/jquery-validation/dist/jquery.validate.js"></script>
+    <script type="text/javascript" src="public/js/jquery-validation/dist/additional-methods.js"></script>
+    <script type="text/javascript" src="public/js/jquery-validation.init.js"></script>
+    <script type="text/javascript" src="public/js/jsvalidation/jsvalidation.js"></script>
+    <script type="text/javascript" src="public/js/toastr/build/toastr.min.js"></script>
+    <script type="text/javascript" src="public/js/sweetalert2/dist/sweetalert2.min.js"></script>
+    <script type="text/javascript" src="public/js/sweetalert2.init.js"></script>
+    <script type="text/javascript" src="public/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="public/js/dataTables.bootstrap4.min.js"></script>
+    <script type="text/javascript" src="public/js/list-datatable.js"></script>
+    <script type="text/javascript" src="public/js/common.js"></script>
+    <script>
+        jQuery(document).ready(function () {
+
+            $("form").each(function () {
+                $(this).validate({
+                    errorElement: 'span',
+                    errorClass: 'invalid-feedback',
+
+                    errorPlacement: function (error, element) {
+                        if (element.parent('.input-group').length ||
+                            element.prop('type') === 'checkbox' || element.prop('type') === 'radio') {
+                            error.insertAfter(element.parent());
+                            // else just place the validation message immediately after the input
+                        } else if (element.hasClass('kt-select2')) {
+                            error.insertAfter(element.parent());
+                        } else {
+                            error.insertAfter(element);
+                        }
+                    },
+                    highlight: function (element) {
+
+                        if ($(element).hasClass('kt-select2')) {
+                            $(element).closest('div').find('span.select2-selection').removeClass('is-valid').addClass('is-invalid').css('border', '1px solid #dc3545');
+
+                        } else {
+                            $(element).closest('.form-control').removeClass('is-valid').addClass('is-invalid');
+                        }
+                        // add the Bootstrap error class to the control group
+                    },
+
+
+                    ignore: ":hidden, [contenteditable='true']",
+
+
+                    unhighlight: function (element) {
+
+                        if ($(element).hasClass('kt-select2')) {
+                            $(element).closest('div').find('span.select2-selection').removeClass('is-invalid').addClass('is-valid').css('border', '');
+                        } else {
+                            $(element).closest('.form-control').removeClass('is-invalid').addClass('is-valid');
+                        }
+                    },
+
+                    success: function (element) {
+                        if ($(element).hasClass('kt-select2')) {
+                            $(element).closest('div').find('span.select2-selection').removeClass('is-invalid').addClass('is-valid').css('border', '');
+                        } else {
+                            $(element).closest('.form-control').removeClass('is-invalid').addClass('is-valid'); // remove the Boostrap error class from the control group
+                        }
+                    },
+
+                    focusInvalid: false, // do not focus the last invalid input
+
+                    rules: { "first_name": { "laravelValidation": [["Required", [], "The first name field is required.", true], ["Max", ["100"], "The first name may not be greater than 100 characters.", false]] }, "last_name": { "laravelValidation": [["Required", [], "The last name field is required.", true], ["Max", ["100"], "The last name may not be greater than 100 characters.", false]] }, "email": { "laravelValidation": [["Required", [], "The email field is required.", true], ["Email", [], "The email must be a valid email address.", false], ["Max", ["150"], "The email may not be greater than 150 characters.", false]], "laravelValidationRemote": [["UniqueEmailCheck", ["email", "eyJpdiI6InBFa1NUd2FHUU1WaW1pejBkS3lpVmc9PSIsInZhbHVlIjoibWwwUGl6a3JMUDVkSjJwSnp4aEVmajZsVVU2d09DREd4cTMxQmRoeW9uZHp1cm04RklpQ1wveVkwcDlsQnFpa3JlUll5WU9ucjBoWlBZcSttbExCcURBPT0iLCJtYWMiOiI1ZDBiNWI5ZGY4ODI1Zjg4YmVjZmE2MDVjZjcyMzcwMjAwNjBhZjg5MjljZDdiMjYzNmU5ZGU3OWYxZWZiOTgyIn0=", false], "Email address already in use.", false]] }, "password": { "laravelValidation": [["Required", [], "The password field is required.", true], ["Min", ["6"], "The password must be at least 6 characters.", false], ["Max", ["50"], "The password may not be greater than 50 characters.", false]] }, "confirm_password": { "laravelValidation": [["Required", [], "The confirm password field is required.", true], ["Min", ["6"], "The confirm password must be at least 6 characters.", false], ["Max", ["50"], "The confirm password may not be greater than 50 characters.", false], ["Same", ["password"], "The confirm password and password must match.", false]] }, "mobile": { "laravelValidation": [["Required", [], "The mobile number field is required.", true], ["Min", ["5"], "validation.mobile_number_min", false], ["Max", ["15"], "validation.mobile_number_max", false]], "laravelValidationRemote": [["MobileNumberCheck", ["mobile", "eyJpdiI6InBFa1NUd2FHUU1WaW1pejBkS3lpVmc9PSIsInZhbHVlIjoibWwwUGl6a3JMUDVkSjJwSnp4aEVmajZsVVU2d09DREd4cTMxQmRoeW9uZHp1cm04RklpQ1wveVkwcDlsQnFpa3JlUll5WU9ucjBoWlBZcSttbExCcURBPT0iLCJtYWMiOiI1ZDBiNWI5ZGY4ODI1Zjg4YmVjZmE2MDVjZjcyMzcwMjAwNjBhZjg5MjljZDdiMjYzNmU5ZGU3OWYxZWZiOTgyIn0=", false], "Please enter valid mobile number.", false]] } }
+                });
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(document).on('click', '#login', function () {
+                location.href = "login.html";
+            });
+        })
+    </script>
+    <script>
+        const changeLang = (element) => {
+            document.getElementById('langChange').removeAttribute('class');
+            if (element.innerText == 'English') {
+                element.innerText = 'العربية';
+                document.getElementById('langChange').setAttribute('class', 'language_en');
+            } else {
+                element.innerText = 'English';
+                document.getElementById('langChange').setAttribute('class', 'language_ar');
+            }
+        }
+    </script>
+</body>
+
+</html>

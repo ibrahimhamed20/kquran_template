@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="shortcut icon" href="public/favicon/favicon.ico" />
+    <meta name="csrf-token" content="hb9tTLf3INfxZB3rO0mLX6VlYdCLXH5YGz0UMBCi">
+    <title>KQURAN | حملاتي</title>
+    <meta name="title" content="Kquran">
+    <meta name="description"
+        content="موقع ختم تلاوة القرآن الكريم يساعدكم في إنهاء الختمة وإهدائها لأمواتكم وتعيين من يود القراءة وتكملة الأجزاء المتبقية سواء كانت الحملة خاصة او عامة.">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700">
+    <link rel="stylesheet" href="public/front/css/plugins.bundle.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="public/front/css/style.bundle.css" />
+    <link rel="stylesheet" href="public/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" href="public/css/dataTables.bootstrap4.min.css" />
+    <link href="public/css/bootstrap-datepicker/dist/css/bootstrap-datepicker3.css" rel="stylesheet" type="text/css" />
+    <link href="public/css/bootstrap-datetime-picker/css/bootstrap-datetimepicker.css" rel="stylesheet"
+        type="text/css" />
+    <link href="public/css/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="public/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="public/css/green-audio-player.css" />
+    <link rel="stylesheet" href="public/front/css/custom.css" />
+    <link href="public/front/css/login-1.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+        rel="stylesheet">
+    <style>
+        *,
+        body {
+            font-family: 'Tajawal', sans-serif !important;
+        }
+    </style>
+</head>
+
+<body id="langChange"
+    class="language_ar kt-inner-page kt-page--loading-enabled kt-page--loading kt-quick-panel--right kt-demo-panel--right kt-offcanvas-panel--right kt-header--fixed kt-header--minimize-topbar kt-header-mobile--fixed kt-subheader--enabled kt-subheader--transparent kt-page--loading language_ar">
+    <div id="kt_header_mobile" class="kt-header-mobile  kt-header-mobile--fixed ">
+        <div class="kt-header-mobile__logo">
+            <a href="#">
+                <img src="public/images/template/logo.svg" alt="شعار">
+            </a>
+        </div>
+        <div class="kt-header-mobile__toolbar">
+            <button class="kt-header-mobile__toolbar-toggler" id="kt_header_mobile_toggler"><span></span></button>
+            <button class="kt-header-mobile__toolbar-topbar-toggler" id="kt_header_mobile_topbar_toggler"><i
+                    class="flaticon-more-1"></i></button>
+        </div>
+    </div>
+    <div class="kt-grid kt-grid--hor kt-grid--root">
+        <div class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--ver kt-page">
+            <div class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor kt-wrapper" id="kt_wrapper">
+                <!-- header start -->
+                <header class="head header_in_page ">
+                    <div class="language_select"> <a href="javascript::void(0);" class="active">العربية</a>
+                        <a href="change-locale/en" class="">English</a>
+                    </div>
+                    <div class="container text-center">
+                        <div class="logo">
+                            <a href="#">
+                                <img src="public/images/template/logo_white.png" alt="شعار">
+                            </a>
+                        </div>
+                        <div class="head_part mt-3">
+                            <div class="right_menu">
+                                <ul class="menu">
+                                    <li>
+                                        <a class="" href="index.html">
+                                            الصفحة الرئيسية
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="" href="campaigns.html">
+                                            الحملات الجارية
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="" href="how-to-work.html">
+                                            كيف يعمل
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="" href="contact-us.html">
+                                            تواصل معنا
+                                        </a>
+                                    </li>
+                                    <li class="user_detail">
+                                        <div class="user_image">
+                                            <a href="javascript:void(0);" class="p-0"><img
+                                                    src="public/images/template/default-user.png" alt="صورة" /> </a>
+
+                                        </div>
+                                        <div class="user_name"> <span>أهلا بك,</span> <a href="javascript:void(0);">
+                                                هيميو </a>
+                                            <span class="menu_open">&nbsp;</span>
+                                        </div>
+                                        <ul class="sub_menu">
+                                            <li>
+                                                <a href="campaign-detail.html">حملتي</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="login.html">
+                                                    تسجيل الخروج
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </header> <!-- header end -->
+                <div class="kt-body kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor kt-grid--stretch"
+                    id="kt_body">
+                    <div class="kt-content  kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor" id="kt_content">
+                        <br>
+                        <div class="kt-container  kt-grid__item kt-grid__item--fluid">
+                            <div class="kt-grid kt-grid--desktop kt-grid--ver kt-grid--ver-desktop kt-app">
+                                <button class="kt-app__aside-close" id="kt_user_profile_aside_close">
+                                    <i class="la la-close"></i>
+                                </button>
+                                <!-- sidebar start -->
+                                <div class="kt-grid__item kt-app__toggle kt-app__aside profileSidebar"
+                                    id="kt_user_profile_aside">
+                                    <div class="kt-portlet ">
+                                        <div class="kt-portlet__body kt-portlet__body--fit-y">
+                                            <div class="kt-widget kt-widget--user-profile-1">
+                                                <div class="header_dash">
+                                                    <div class="header_dash_user">
+
+                                                        <div class="dash_image m-0">
+                                                            <img src="public/images/template/default-user.png"
+                                                                width="100" alt="صورة" />
+                                                        </div>
+                                                        <a href="javascript:void(0);" class="kt-widget__username">
+                                                            هيميو هيما
+                                                        </a>
+                                                    </div>
+                                                    <div class="dash_user_dtl">
+                                                        <div class="dtl_dash w-50 text-center">
+                                                            <!-- <label>البريد الألكتروني:</label> -->
+                                                            <p>test@test.com</p>
+                                                        </div>
+                                                        <div class="dtl_dash w-50 text-center mt-0">
+                                                            <!-- <label>الهاتف النقال:</label> -->
+                                                            <p>123456789</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="kt-widget__body sidebar_menu">
+                                                    <div class="kt-widget__items">
+                                                        <a href="my-campaign.html"
+                                                            class="kt-widget__item kt-widget__item--active">
+                                                            <span class="kt-widget__section">
+                                                                <span class="kt-widget__desc">
+                                                                    حسابي الخاص
+                                                                </span>
+                                                            </span>
+                                                        </a>
+
+                                                        <a href="profile.html" class="kt-widget__item ">
+                                                            <span class="kt-widget__section">
+                                                                <span class="kt-widget__desc">
+                                                                    البيانات الشخصية
+                                                                </span>
+                                                            </span>
+                                                        </a>
+
+                                                        <a href="change-password.html" class="kt-widget__item ">
+                                                            <span class="kt-widget__section">
+                                                                <span class="kt-widget__desc">
+                                                                    تغيير كلمة المرور
+                                                                </span>
+                                                            </span>
+                                                        </a>
+
+                                                        <a href="login.html" class="kt-widget__item">
+                                                            <span class="kt-widget__section">
+                                                                <span class="kt-widget__desc">
+                                                                    تسجيل الخروج
+                                                                </span>
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> <!-- sidebar end -->
+                                <!-- content start -->
+                                <!--begin::Portlet-->
+                                <div class="kt-portlet kt-portlet--mobile my_campaigns_page">
+                                    <div class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor">
+                                        <div class="kt-subheader   kt-grid__item  create_campaign_head"
+                                            id="kt_subheader">
+                                            <div class="kt-subheader__main">
+                                                <h3 class="kt-subheader__title">
+                                                    الاجزاء القرآنية
+                                                </h3>
+                                            </div>
+                                            <div class="kt-subheader__toolbar">
+                                                <a href="create.html" class="btn btn-label-brand btn-bold px-4">
+                                                    اضافة جزء قرأنى جديد
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="kt-grid__item kt-grid__item--fluid kt-app__content">
+                                        <div class="row">
+                                            <div class="col-xl-12">
+                                                <div class="kt-portlet__body">
+                                                    <div class="kt-section kt-section--first">
+                                                        <div class="kt-section__body">
+                                                            <div class="row">
+                                                                <div class="card card-custom bg-primary gutter-b">
+                                                                    <div class="card-body">
+                                                                        <span
+                                                                            class="svg-icon svg-icon-3x svg-icon-white ml-n2">
+                                                                            الاجزاء المتكلمة
+                                                                        </span>
+                                                                        <div
+                                                                            class="text-inverse-primary font-weight-bolder font-size-h2 mt-3">
+                                                                            12
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="card card-custom bg-primary gutter-b">
+                                                                    <div class="card-body">
+                                                                        <span
+                                                                            class="svg-icon svg-icon-3x svg-icon-white ml-n2">
+                                                                            الاجزاء الجارية
+                                                                        </span>
+                                                                        <div
+                                                                            class="text-inverse-primary font-weight-bolder font-size-h2 mt-3">
+                                                                            18
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="kt-portlet__body kt-portlet__body--fit">
+
+                                        <!--begin: Datatable -->
+                                        <div id="data-table_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
+                                            <div class="row">
+                                                <div class="col-sm-12 col-md-6">
+                                                    <div class="dataTables_length" id="data-table_length"><label>أظهر
+                                                            <select name="data-table_length" aria-controls="data-table"
+                                                                class="custom-select custom-select-sm form-control form-control-sm">
+                                                                <option value="10">10</option>
+                                                                <option value="25">25</option>
+                                                                <option value="50">50</option>
+                                                                <option value="100">100</option>
+                                                            </select> مدخلات</label></div>
+                                                </div>
+                                                <div class="col-sm-12 col-md-6">
+                                                    <div id="data-table_filter" class="dataTables_filter">
+                                                        <label>ابحث:<input type="search"
+                                                                class="form-control form-control-sm" placeholder=""
+                                                                aria-controls="data-table"></label></div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <table class="table table-bordered data-table dataTable no-footer"
+                                                        id="data-table" role="grid" aria-describedby="data-table_info"
+                                                        style="width: 869px;">
+                                                        <thead>
+                                                            <tr role="row">
+                                                                <th class="sorting_disabled" rowspan="1" colspan="1"
+                                                                    style="width: 20px;">#</th>
+                                                                <th class="sorting" tabindex="0"
+                                                                    aria-controls="data-table" rowspan="1" colspan="1"
+                                                                    style="width: 49px;">الإسم</th>
+                                                                <th class="sorting" tabindex="0"
+                                                                    aria-controls="data-table" rowspan="1" colspan="1"
+                                                                    style="width: 91px;">تاريخ الرفع</th>
+                                                                <th class="sorting" tabindex="0"
+                                                                    aria-controls="data-table" rowspan="1" colspan="1"
+                                                                    style="width: 52px;">النوع</th>
+                                                                <th class="sorting" tabindex="0"
+                                                                    aria-controls="data-table" rowspan="1" colspan="1"
+                                                                    style="width: 44px;">صورة</th>
+                                                                <th class="sorting" tabindex="0"
+                                                                    aria-controls="data-table" rowspan="1" colspan="1"
+                                                                    style="width: 123px;">الأجزاء المكتملة</th>
+                                                                <th class="sorting_disabled" rowspan="1" colspan="1"
+                                                                    style="width: 47px;">الحالة</th>
+                                                                <th class="sorting_disabled" rowspan="1" colspan="1"
+                                                                    style="width: 80px;">الإجراءات</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr class="odd text-center">
+                                                                <td>#123</td>
+                                                                <td>الجزء الثالث</td>
+                                                                <td>12/05/2020</td>
+                                                                <td>عام</td>
+                                                                <td><img src="public/images/template/item.jpg" />
+                                                                </td>
+                                                                <td>13</td>
+                                                                <td>فعال</td>
+                                                                <td>
+                                                                    <a href="#" class="mx-2">تعديل</a>
+                                                                    <a href="#" class="mx-2">حذف</a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="odd d-none">
+                                                                <td valign="top" colspan="8" class="dataTables_empty">
+                                                                    ليست هناك بيانات متاحة في الجدول</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-12 col-md-5">
+                                                    <div class="dataTables_info" id="data-table_info" role="status"
+                                                        aria-live="polite">يعرض 0 إلى 1 من أصل 5 سجل</div>
+                                                </div>
+                                                <div class="col-sm-12 col-md-7">
+                                                    <div class="dataTables_paginate paging_simple_numbers"
+                                                        id="data-table_paginate">
+                                                        <ul class="pagination">
+                                                            <li class="paginate_button page-item previous disabled"
+                                                                id="data-table_previous"><a href="#"
+                                                                    aria-controls="data-table" data-dt-idx="0"
+                                                                    tabindex="0" class="page-link">السابق</a></li>
+                                                            <li class="paginate_button page-item next disabled"
+                                                                id="data-table_next"><a href="#"
+                                                                    aria-controls="data-table" data-dt-idx="1"
+                                                                    tabindex="0" class="page-link">التالي</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end: Datatable -->
+                                    </div>
+                                </div>
+                                <!--end::Portlet-->
+                                <!-- content end -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- footer start -->
+                <!-- footer end -->
+            </div>
+        </div>
+    </div>
+    <footer class="foot">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-3 col-sm-6">
+                    <div class="progress blue mb-3">
+                        <span class="progress-left">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <span class="progress-right">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <div class="progress-value text-white"><b>10</b></div>
+                    </div>
+                    <span class="text-white">عدد الاجزاء المكتملة </span>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="progress yellow mb-3">
+                        <span class="progress-left">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <span class="progress-right">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <div class="progress-value text-white"><b>10</b></div>
+                    </div>
+                    <span class="text-white">عدد الاجزاء المكتملة </span>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="progress blue mb-3">
+                        <span class="progress-left">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <span class="progress-right">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <div class="progress-value text-white"><b>10</b></div>
+                    </div>
+                    <span class="text-white">عدد الاجزاء المكتملة </span>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="progress yellow mb-3">
+                        <span class="progress-left">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <span class="progress-right">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <div class="progress-value text-white"><b>10</b></div>
+                    </div>
+                    <span class="text-white">عدد الاجزاء المكتملة </span>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="container">
+                <div class="foot_part">
+                    <div class="top_detail">
+                        <div>
+                            <b>5</b>
+                            <span>عدد الحملات المكتملة </span>
+                        </div>
+                        <div>
+                            <b>10</b>
+                            <span>عدد الحملات الجارية</span>
+                        </div>
+                        <div>
+                            <b class="darood-count">118</b>
+                            <span>عدد مرات الصلاة على النبي واله (ص)</span>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+    </footer>
+    <div class="contaner bg-white mt-5">
+        <div class="foot_part">
+            <div class="copyright">
+                <div class="social">
+                    <a href="javascript:void(0)" target="_blank">
+                        <img src="public/images/social/fb_icon.svg" alt="فايسبوك" />
+                    </a>
+                    <a href="javascript:void(0)" target="_blank">
+                        <img src="public/images/social/tw_icon.svg" alt="تويتر" />
+                    </a>
+                    <a href="javascript:void(0)" target="_blank">
+                        <img src="public/images/social/insta_icon.svg" alt="الانستقرام" />
+                    </a>
+                    <a href="javascript:void(0)" target="_blank">
+                        <img src="public/images/social/yt_icon.svg" alt="يوتيوب" />
+                    </a>
+                </div>
+                <p>&copy; 2020, كل الحقوق محفوظة لموقع قرآن بالعربية</p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="public/js/jquery.js"></script>
+    <script type="text/javascript" src="public/js/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="public/js/green-audio-player.js"></script>
+    <script type="text/javascript" src="public/front/js/plugins.bundle.js"></script>
+    <script type="text/javascript" src="public/js/jquery-validation/dist/jquery.validate.js"></script>
+    <script type="text/javascript" src="public/js/jquery-validation/dist/additional-methods.js"></script>
+    <script type="text/javascript" src="public/js/jquery-validation.init.js"></script>
+    <script type="text/javascript" src="public/js/jsvalidation/jsvalidation.js"></script>
+    <script type="text/javascript" src="public/js/toastr/build/toastr.min.js"></script>
+    <script type="text/javascript" src="public/js/sweetalert2/dist/sweetalert2.min.js"></script>
+    <script type="text/javascript" src="public/js/sweetalert2.init.js"></script>
+    <script type="text/javascript" src="public/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="public/js/dataTables.bootstrap4.min.js"></script>
+    <script type="text/javascript" src="public/js/list-datatable.js"></script>
+    <script type="text/javascript" src="public/js/common.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("li.user_detail").click(function () {
+                $("ul.sub_menu").toggle();
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(".chapter_box").click(function () {
+                if ($('[type="checkbox"]', this).is(':checked')) {
+                    $(this).addClass('select');
+                } else {
+                    $(this).removeClass('select');
+                }
+
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            GreenAudioPlayer.init({
+                selector: '.audio_player',
+                stopOthersOnPlay: true,
+                showTooltips: true,
+                showDownloadButton: false,
+                enableKeystrokes: true
+            });
+        });
+
+        $(document).ready(function () {
+            $('.play-pause-btn').click(function () {
+                $('.para_box').removeClass('active');
+                $(this).closest('.para_box').toggleClass('active');
+            });
+        });
+
+        $(document).ready(function () {
+            $(document).off('click', '.copy-text').on('click', '.copy-text', function () {
+                const el = document.createElement('textarea');
+                el.value = $(this).data('link');
+                document.body.appendChild(el);
+                el.select();
+                document.execCommand('copy');
+                document.body.removeChild(el);
+                toastr.success("نسخ")
+            });
+        });
+    </script>
+    <div id="kt_scrolltop" class="kt-scrolltop">
+        <i class="fa fa-arrow-up"></i>
+    </div>
+    <!-- <script type="text/javascript" src="public/js/select2/dist/js/select2.full.js"></script>
+    <script type="text/javascript" src="public/js/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+    <script type="text/javascript" src="public/js/bootstrap-datepicker.init.js"></script>
+    <script type="text/javascript"
+        src="public/js/bootstrap-datetime-picker/js/bootstrap-datetimepicker.min.js"></script>
+    <script type="text/javascript" src="public/js/bootstrap-daterangepicker/daterangepicker.js"></script>
+    <script type="text/javascript" src="public/js/inputmask/dist/inputmask/inputmask.date.extensions.js"></script> -->
+    <script>
+        $(document).ready(function () {
+            $("li.user_detail").off('click', function () {
+                $("ul.sub_menu").toggle();
+            });
+        });
+    </script>
+    <!-- <script type="text/javascript">
+        var ajaxdata = { "data": { "url": "http:\/\/www.kquran.org\/my-campaign\/list", "type": "POST", "data": { "_token": "hb9tTLf3INfxZB3rO0mLX6VlYdCLXH5YGz0UMBCi" } }, "columns": [{ "data": "DT_RowIndex", "title": "#", "sortable": false, "width": 20, "selector": { "class": "kt-checkbox--solid" }, "textAlign": "center" }, { "data": "name", "title": "\u0627\u0644\u0625\u0633\u0645", "defaultContent": "<span style='color:red'><\/i>" }, { "data": "formatted_death_date", "title": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u0648\u0641\u0627\u0629", "defaultContent": "<span style='color:red'><\/i>" }, { "data": "visibility_status", "title": "\u0627\u0644\u062d\u0645\u0644\u0629", "defaultContent": "<span style='color:red'><\/i>" }, { "data": "image", "title": "\u0635\u0648\u0631\u0629", "defaultContent": "<span style='color:red'><\/i>" }, { "data": "chapters", "title": "\u0627\u0644\u0623\u062c\u0632\u0627\u0621 \u0627\u0644\u0645\u0643\u062a\u0645\u0644\u0629", "defaultContent": "<span style='color:red'><\/i>" }, { "data": "status", "title": "\u0627\u0644\u062d\u0627\u0644\u0629", "sortable": false }, { "data": "action", "title": "\u0627\u0644\u0625\u062c\u0631\u0627\u0621\u0627\u062a", "width": 80, "sortable": false, "autoHide": false, "overflow": "visible" }] };
+        if (typeof ajaxdata === 'object') {
+            KTAppUserListDatatable.init(ajaxdata);
+        }
+    </script> -->
+    <script>
+        $(document).ready(function () {
+            $("li.user_detail").off('click', function () {
+                $("ul.sub_menu").toggle();
+            });
+        });
+    </script>
+</body>
+
+</html>
